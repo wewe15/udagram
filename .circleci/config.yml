@@ -43,8 +43,6 @@ jobs:
           name: Set Environment Variables for Elastic Beanstalk
           command: >
             cd udagram-api &&
-            eb init udgram-api --platform node.js --region us-east-2 &&
-            eb create --sample udgram-api-env &&
             eb use udgram-api-env &&
             eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME 
             POSTGRES_PASSWORD=$POSTGRES_PASSWORD
