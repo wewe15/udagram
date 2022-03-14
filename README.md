@@ -54,6 +54,10 @@ Unit tests are using the Jasmine Framework.
 
 The e2e tests are using Protractor and Jasmine.
 
+### endpoint for frontend
+
+- [udagram](http://wewe-udagram123.s3-website.us-east-2.amazonaws.com/home)
+
 ## Built With
 
 - [Angular](https://angular.io/) - Single Page Application Framework
