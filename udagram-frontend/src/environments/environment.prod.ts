@@ -5,7 +5,7 @@
 export const environment = {
   production: true,
   appName: "Udagram",
-  apiHost: "postgres://postgres:postgres@database-1.ciwbgo7tl10r.us-east-1.rds.amazonaws.com:5432/postgres",
+  apiHost: "http://udagram-api-dev.eba-pewy3pds.us-east-1.elasticbeanstalk.com/",
 };
 
 /*
